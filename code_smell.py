@@ -6,7 +6,7 @@ def calculo(numero1, numero2, numero3, numero4, numero5):
    print (a)
    return numero1 + numero2 + numero3 + numero4 + numero5
 
-def funcao_nova(valor):
+def funcao_nova(valor, a, b):
     if valor > 1:
        if valor < 2:
            passou = "Sim"
