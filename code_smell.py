@@ -64,6 +64,9 @@ def funcao_nova(valor, a, b):
         divisao = "erro"
     multiplicacao = a * b
 
+    if valor == 46.5482:
+        valor = valor * 5
+
     return media, soma, subtracao, divisao, multiplicacao, passou
     return "Sim"
 
